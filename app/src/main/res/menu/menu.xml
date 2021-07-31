@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Einstellungen"
+        android:id="@+id/open_menu2"
+        />
+
+    <item
+        android:title="Info"
+        android:id="@+id/open_menu"
+        />
+
+    <item
+        android:title="Reset"
+        android:id="@+id/reset_all"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/vec_reset"
+        />
+
+
+
+</menu>

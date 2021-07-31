@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.example.MyVocApp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vec_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="android.example.MyVocApp.SettingsActivity"
+            android:label="Einstellungen" />
+
+        <activity android:name="android.example.MyVocApp.InfoActivity"
+            android:label="Info"/>
+
+        <activity android:name="android.example.MyVocApp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

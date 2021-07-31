@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyVocApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_info">Ersteller: Artem Beitsch \nErstellt am: Juli 2021 \nArbeitsaufwand: 183 Stunden \nSchule: Hochschule Worms</string>
+    <string name="add_item">add_Item</string>
+</resources>
